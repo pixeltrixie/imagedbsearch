@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Image Database Search Tool</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body>
+<h1>Image Database Search Tool</h1>
+<form name="imgsearch" class="imgsearch" id="searchForm" action="search.php" method="get">
+<fieldset>
+<input type="hidden" name="check_submit" value="1" />
+<h2>Search the Database (__ Images):</h2>
+<p>After you select at least one checkbox option, you may further refine your results by selecting either [1] Radio button parameter 1 and 1a or [2] Radio button parameter 2.</p>
+
+<p>Checkbox options:
+<input name="formCheckboxoption[]" type="checkbox" checked="checked" value="checkboxvalue1" />Checkbox option 1
+<input name="formCheckboxoption[]" type="checkbox" value="checkboxvalue2" />Checkbox option 2</p>
+
+<p><input type="radio" name="radioname" id="radio1" class="radioclass" value="radio1value" />Radio button 1 title:</p>
+
+<p>Radio button 1 parameter 1 title:
+<label for="radio1low">From:</label><input name="radio1low" id="radio1low" type="text" maxlength="" size="" value="lowestvalue1" />
+<label for="radio1high">To:</label><input name="radio1high" id="radio1high" type="text" maxlength="" size="" value="highestvalue1" />
+</p>
+
+<p>Radio button 1 parameter 1a title:
+<label for="radio1alow">From:</label><input name="radio1alow" id="radio1alow" type="text" maxlength="" size="" value="lowestvalue2" />
+<label for="radio1ahigh">To:</label><input name="radio1ahigh" id="radio1ahigh" type="text" maxlength="" size="" value="highestvalue2" />
+</p>
+
+<p><input type="radio" name="radioname" id="radio2" class="radioclass" value="radio2value" />Radio button 2 title:<br/>
+<label for="from">From:</label><input type="text" id="from" name="from" size="12" value="lowvalue_englishdate"/>
+<label for="to">to:</label><input type="text" id="to" name="to" size="12" value="highvalue_englishdate"/><span>(mm/dd/yyyy)</span>
+</p>
+
+<p><input type="submit" value="Search Database"/></p>
+<p><input class="cancel" type="reset" value="Reset"/></p>
+</fieldset>
+</form>
+</body>
+</html>
