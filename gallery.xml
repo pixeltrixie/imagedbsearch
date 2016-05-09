@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<root title="Image Database">
+<database>
+<image a="Title of file" b="Unique partial file path" c="Checkbox Option" d="English Date Format YYYY-MM-DD" e="Radio button parameter 1" f="Radio button parameter 2" g="Filename with extension" h="Unix timestamp" i="Text associated with e attribute" j="Text associated with f attribute"/>
+<image a="Title of file" b="Unique partial file path" c="Checkbox Option" d="English Date Format YYYY-MM-DD" e="Radio button parameter 1" f="Radio button parameter 2" g="Filename with extension" h="Unix timestamp" i="Text associated with e attribute" j="Text associated with f attribute"/>
+<image a="Title of file" b="Unique partial file path" c="Checkbox Option" d="English Date Format YYYY-MM-DD" e="Radio button parameter 1" f="Radio button parameter 2" g="Filename with extension" h="Unix timestamp" i="Text associated with e attribute" j="Text associated with f attribute"/>
+</database>
+</root>
